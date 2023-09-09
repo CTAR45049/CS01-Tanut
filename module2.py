@@ -1,0 +1,6 @@
+vehicle = input(" ")
+brand, model = vehicle.split()
+brand_length = len(brand)
+model_length = len(model)
+print(f"Your car's brand is {brand} and the model is {model}.")
+print(f"Its brandname contains {brand_length} characters and its model has {model_length} characters.")

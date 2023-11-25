@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มเก็บข้อมูลลูกค้าและข้อมูลการเลือกจองรถ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            float: right;
+            top: 50px;
+            right: 50px;
+            position: absolute;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .Model_3 {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .tesla_car {
+            border-collapse: collapse;
+            /* border: 1px solid black; */
+            font-size: 20px;
+            width: auto;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            font-size: 20px;
+
+        }
+
+        .inner-table {
+            width: 100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="tesla_car">
+        <table>
+            <tr>
+              <td><img class="Model_3-image" src="https://img.icarcdn.com/autospinn/body/000000027955_410f0987_0b0f_42b7_b5bc_d2b104f1afd5.jpg" width="400" height="200"></td>
+              <td>
+                <table>
+                    <caption><b>ข้อมูล Model 3</b></caption>
+                    <th>ขนาด</th>
+                    <th>ขับ</th>
+                    <tr>
+                        <td>น้ำหนัก 1765 กก.</td>
+                        <td>แบตเตอรี่ Standard Range</td>
+                    </tr>
+                    <tr>
+                        <td>พื้นที่เก็บสัมภาระ 682 ลิตร</td>
+                        <td>ระยะทาง 513 กม.</td>
+                    </tr>
+                    <tr>
+                        <td>ที่นั่งผู้ใหญ่ 5 คน</td>
+                        <td>ขับเคลื่อนล้อหลัง</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">ราคา 1,599,000 บาท</td>
+                    </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+                <td><img class="Model_3_Longrange-image" src="https://img.icarcdn.com/autospinn/body/000000027955_410f0987_0b0f_42b7_b5bc_d2b104f1afd5.jpg" width="400" height="200"></td>
+                <td>
+                  <table>
+                      <caption><b>ข้อมูล Model 3 ขับเคลื่อนสี่ล้อรุ่น Long Range</b></caption>
+                      <th>ขนาด</th>
+                      <th>ขับ</th>
+                      <tr>
+                          <td>น้ำหนัก 1828 กก.</td>
+                          <td>แบตเตอรี่ รุ่น Long Range</td>
+                      </tr>
+                      <tr>
+                          <td>พื้นที่เก็บสัมภาระ 682 ลิตร</td>
+                          <td>ระยะทาง 629 กม.</td>
+                      </tr>
+                      <tr>
+                          <td>ที่นั่งผู้ใหญ่ 5 คน</td>
+                          <td>ขับเคลื่อนสี่ล้อมอเตอร์คู่</td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">ราคา 1,899,000 บาท</td>
+                      </tr>
+                  </table>
+                </td>
+              </tr>
+
+            <tr>
+              <td><img class="Model_Y_Perfomance-image" src="https://s.isanook.com/au/0/ud/17/88383/tesla_launched_th_17.jpg?ip/resize/w728/q80/jpg" width="400" height="200"></td>
+              <td>
+                <table>
+                    <caption><b>ข้อมูล Model Y ขับเคลื่อนสี่ล้อรุ่น Performance</b></caption>
+                    <th>ขนาด</th>
+                    <th>ขับ</th>
+                    <tr>
+                        <td>น้ำหนัก 1997 กก.</td>
+                        <td>แบตเตอรี่ รุ่น Long Range</td>
+                    </tr>
+                    <tr>
+                        <td>พื้นที่เก็บสัมภาระ 2158 ลิตร</td>
+                        <td>ระยะทาง 514 km</td>
+                    </tr>
+                    <tr>
+                        <td>ที่นั่งผู้ใหญ่ 5 คน</td>
+                        <td>ขับเคลื่อนสี่ล้อมอเตอร์คู่</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">ราคา 2,329,000 บาท</td>
+                    </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+                <td><img class="Model_Y _Longrange-image" src="https://www.greencarguide.co.uk/wp-content/uploads/2022/03/Tesla-Model-Y-001-low-res.jpg" width="400" height="200"></td>
+                <td>
+                  <table>
+                      <caption><b>ข้อมูล Model Y ขับเคลื่อนสี่ล้อรุ่น Long Range</b></caption>
+                      <th>ขนาด</th>
+                      <th>ขับ</th>
+                      <tr>
+                          <td>น้ำหนัก 1979 กก.</td>
+                          <td>แบตเตอรี่ Long Range</td>
+                      </tr>
+                      <tr>
+                          <td>พื้นที่เก็บสัมภาระ 2158 ลิตร</td>
+                          <td>ระยะทาง 533 กม.</td>
+                      </tr>
+                      <tr>
+                          <td>ที่นั่งผู้ใหญ่ 5 คน</td>
+                          <td>ขับเคลื่อนสี่ล้อมอเตอร์คู่</td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">ราคา 2,049,000 บาท</td>
+                      </tr>
+                  </table>
+                </td>
+              </tr>
+
+        </table>
+    </div>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label>Gender:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+
+
+        <label for="tesla">เลือกรถ tesla ที่คุณรักเพื่อจองก่อนใคคร:</label>
+        <select id="รถ" name="รถ">
+            <option value="Model 3  ">Model 3</option>
+            <option value="Model 3 Long Range">Model 3 Long Range</option>
+            <option value="Model Y Performance">Model Y Performance</option>
+            <option value="Model Y Long Range">Model Y Long Range</option>
+
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

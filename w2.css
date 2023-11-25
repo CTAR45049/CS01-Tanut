@@ -1,0 +1,72 @@
+@keyframes colorChange {
+    0% {
+        background-color: rgb(255, 0, 0); /* Start color: Red */
+    }
+    50% {
+        background-color: rgb(0, 255, 0); /* Middle color: Green */
+    }
+    100% {
+        background-color: rgb(0, 0, 255); /* End color: Blue */
+    }
+}
+
+body {
+    animation: colorChange 5s infinite; /* 5s duration, infinite loop */
+    margin: 0; /* Remove default body margin */
+}
+
+    img {
+    border: 10px solid #000000;
+    border-radius: 4px;
+    padding: 0px;
+    width: 600px;
+    height: 700px;
+    align-items: center;
+    float: right; /* Align the image to the right */
+    margin-right: 250px; /* Add some margin to the right side */
+
+    }
+  
+    h1 {
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        color: rgb(255, 0, 0);
+        width: 500px;
+        height: 100px;
+        font-style: Oblique;
+        font-size: 75px;
+        float: center;  
+    }
+
+    h2 {
+        background-color: black;
+        color: white;
+        width: 300px;
+        height: 75px;
+        font-style: Oblique;
+        font-size: 50px;
+    }
+
+    h3 {
+        background-color: black;
+        color: white;
+        width: 375px;
+        height: 75px;
+        font-style: Oblique;
+        font-size: 50px;
+    }
+
+    h4 {
+        background-color: black;
+        color: white;
+        width: 290px;
+        height: 75px;
+        font-style: Oblique;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 35px;
+        font-style: bold;
+        margin-left: 10px;
+    }
